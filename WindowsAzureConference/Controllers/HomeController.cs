@@ -20,6 +20,8 @@ namespace WindowsAzureConference.Controllers
             string strMessageToShow = "Windows Azure Conference 2014";
             ViewBag.Message = strMessageToShow;
 
+
+
             return View();
         }
 
