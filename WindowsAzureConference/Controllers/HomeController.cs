@@ -17,7 +17,7 @@ namespace WindowsAzureConference.Controllers
 
         public ActionResult About()
         {
-            string strMessageToShow = "Windows Azure Conference";
+            string strMessageToShow = "Windows Azure Conference 2014";
             ViewBag.Message = strMessageToShow;
 
 
