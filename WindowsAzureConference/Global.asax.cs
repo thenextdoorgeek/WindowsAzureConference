@@ -12,6 +12,7 @@ namespace WindowsAzureConference
     {
         protected void Application_Start()
         {
+		// some comment
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
